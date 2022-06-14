@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+body {
+  font-family: 'Noto Serif TC', serif;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+ul {
+  font-family: 'Fredericka the Great', cursive;
+}
+footer {
+  font-family: 'Fredericka the Great', cursive;
+}
+nav {
+  width: 100%;
+  height: 65px;
+  background-color: #0F1F53;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul li {
+  display: inline;
+  margin-right: 45px;
+  font-size: large;
+  text-decoration: none;
+}
+.title {
+  margin-left: 50px;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+.menu ul li a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  font-size: x-large;
+  color: #C9C9C9;
+  background-position: 0% center;
+}
+.menu ul li a:visited {
+  color: #FFFFFF;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(%E6%98%9F%E6%B2%99%E7%81%A3.jpg);
+  background-size: cover;
+  background-position: 0% center;
+}
+article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.Blue {
+    background-color: #D9DBFF;
+}
+article h1 {
+    font-size: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+article h2 {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.D1 {
+    line-height: 30px;
+    text-align: left;
+    border-radius: 5px;
+    text-shadow: 0px 0px;
+    letter-spacing: 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 15px;
+}
+.D11 {
+    display: flex;
+    flex: 3;
+    font-size: medium;
+}
+.D12 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.D13 {
+    color: #5878C8;
+}
+
+.D14 {
+    display: flex;
+}
+.D15 {
+    background-color: #F1F3AA;
+    border-radius: 12px;
+    text-shadow: 0px 0px;
+    -webkit-box-shadow: 1px 1px #76A7AE;
+    box-shadow: 1px 1px #76A7AE;
+    text-align: left;
+    text-indent: 8px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+}
+.Box1 {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.Box2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: medium;
+}
+.Box3 {
+    display: inline;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+}
